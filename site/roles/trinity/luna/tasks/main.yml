@@ -60,6 +60,12 @@
     dest: '/tftpboot/luna_undionly.kpxe'
     remote_src: True
 
+- name: Copy luna_ipxe.efi to /tftpboot
+  copy:
+    src: '/usr/share/ipxe/ipxe.efi'
+    dest: '/tftpboot/luna_ipxe.efi'
+    remote_src: True
+
 - name: Render /etc/luna.conf
   template:
     src: 'luna.conf'
