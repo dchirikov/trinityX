@@ -129,3 +129,8 @@ enable_heartbeat_link: true
 # Install docker daemon, registry and utilities on the cluster
 
 enable_docker: false
+
+
+# name of the local yum repository
+#
+trinityx_local_reponame: 'trinityx-local'
