@@ -5,5 +5,4 @@ image_core_packages:
   - "grub2"
   - "grub2-tools"
   - "tzdata"
-  - "epel-release"
   - "luna-client"
